@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy · Hidden Wonders Uploader</title><link rel="stylesheet" href="style.css"></head>
+<body><header><a href="index.html" class="brand">Hidden Wonders Uploader</a><nav><a href="index.html">Home</a><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms of Service</a></nav></header>
+<main>
+<h1>Privacy Policy</h1>
+<p class="muted">Last updated: October 23, 2026</p>
+
+<p>Hidden Wonders Uploader (“the tool”) is a private desktop application that uploads videos made for the YouTube channel <strong>Hidden Wonders</strong> (<a href="https://www.youtube.com/@Hiddenwonders-world">@Hiddenwonders-world</a>) to that channel. The channel owner is its only user. It is not offered, sold or distributed to anyone else.</p>
+
+<h2>YouTube API Services</h2>
+<p>The tool uses <strong>YouTube API Services</strong> (the YouTube Data API v3). By using the tool, users are agreeing to be bound by the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>. YouTube API Services are provided by Google; see the <a href="https://policies.google.com/privacy">Google Privacy Policy</a> at https://policies.google.com/privacy.</p>
+
+<h2>What the tool accesses</h2>
+<ul>
+<li>Through Google sign-in (OAuth 2.0), the tool asks for permission to upload videos to, and manage captions, thumbnails and comments on, the signed-in user’s own YouTube channel. The scopes are <code>youtube.upload</code> and <code>youtube.force-ssl</code>.</li>
+<li>It reads only the IDs and privacy status of videos the tool itself uploaded, to avoid duplicate uploads and to know when a video has been published.</li>
+<li>It does not read subscriber lists, analytics, other channels’ data, or any other user’s data.</li>
+</ul>
+
+<h2>What the tool stores, and where</h2>
+<ul>
+<li>An OAuth access/refresh token, stored only on the user’s own computer (<code>%APPDATA%\HiddenWonders\token.json</code>).</li>
+<li>A local log of uploaded video IDs, upload times and scheduled publish times (<code>uploads.json</code> on the same computer).</li>
+</ul>
+<p>Nothing is stored on any server operated by the tool. The tool has no server, no analytics, no cookies and no advertising.</p>
+
+<h2>Sharing</h2>
+<p>No data accessed through YouTube API Services is shared with, sold to, or disclosed to any third party. Data is sent only to Google/YouTube, as part of the upload itself.</p>
+
+<h2>Deleting data and revoking access</h2>
+<ul>
+<li><strong>Revoke access</strong> at any time from your Google Account security settings: <a href="https://myaccount.google.com/permissions">https://myaccount.google.com/permissions</a> (remove “Hidden Wonders Uploader”).</li>
+<li><strong>Delete local data</strong> by deleting the <code>HiddenWonders</code> folder in <code>%APPDATA%</code> and the <code>uploads.json</code> file. Once access is revoked, the stored token stops working.</li>
+<li><strong>Retention:</strong> stored data is kept only while the tool is in use. Locally stored API data is refreshed or deleted within 30 days, as required by the YouTube API Services Developer Policies.</li>
+</ul>
+
+<h2>Contact</h2>
+<p>Questions about this policy: <a href="mailto:hiddenwonders5432@gmail.com">hiddenwonders5432@gmail.com</a></p>
+</main>
+<footer>Hidden Wonders Uploader uses YouTube API Services. · <a href="privacy.html">Privacy Policy</a> · <a href="terms.html">Terms of Service</a></footer>
+</body></html>
